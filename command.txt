@@ -1,0 +1,29 @@
+adminbh
+rlaqudgns1996
+
+db password = sejong123
+가상환경 설치
+python -m venv venv
+
+가상환경 시작
+venv\Scripts\activate
+
+가상환경 종료
+deactivate
+
+라이브러리 설치
+pip install -r requirements.txt
+
+앱 설치
+python manage.py startapp (app)
+
+python manage.py makemigrations
+python manage.py migrate
+
+
+서버 시작
+python manage.py runserver
+
+python manage.py startapp mainApp
+python manage.py startapp questions
+python manage.py startapp common
